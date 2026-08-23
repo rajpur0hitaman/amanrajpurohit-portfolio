@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>Aman Rajpurohit — Video Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader"><strong>AMAN<span>.</span></strong><i></i></div>
+<div class="grain"></div>
+<canvas id="space"></canvas>
+
+<header class="nav">
+  <a class="logo" href="#top">AMAN<span>.</span></a>
+  <nav>
+    <a href="#work">WORK</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a>
+  </nav>
+  <a class="contact-pill" href="#contact">LET'S WORK <b>↗</b></a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-top"><span>VIDEO EDITOR · MOTION DESIGNER</span><span>01 / 04</span></div>
+  <div class="hero-copy">
+    <h1>MAKE<br><span>IT</span><br><em>MOVE.</em></h1>
+    <p>I turn raw footage into sharp, engaging content through editing, motion graphics and visual storytelling.</p>
+    <a class="explore" href="#work">EXPLORE SELECTED WORK <b>↓</b></a>
+  </div>
+
+  <div class="hero-3d" id="hero3d">
+    <div class="ring r1"></div><div class="ring r2"></div>
+    <div class="glass back"></div>
+    <div class="glass front">
+      <div class="card-label"><span>PROJECT / 01</span><span>SHOWREEL</span></div>
+      <div class="hero-image"><img src="portfolio-cover.png" alt="Aman portfolio"></div>
+      <div class="card-label"><span>EDIT · MOTION · STORY</span><span>↗</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="intro section">
+  <div class="tiny">01 — SELECTED WORK</div>
+  <div class="intro-copy">
+    <h2>Projects with<br><em>purpose.</em></h2>
+    <p>A focused selection of short-form content, documentary editing and motion graphics.</p>
+  </div>
+</section>
+
+<section class="work section" id="work">
+  <div class="featured project" data-video>
+    <div class="media">
+      <img src="portfolio-cover.png" alt="Portfolio showreel">
+      <div class="shade"></div>
+      <div class="orb"></div>
+      <button class="play">PLAY SHOWREEL <span>↗</span></button>
+      <small>01 / PORTFOLIO</small>
+    </div>
+    <div class="project-info">
+      <div><span>PORTFOLIO SHOWREEL</span><strong>Short Form · Documentary · Motion Graphics</strong></div>
+      <b>2026 ↗</b>
+    </div>
+  </div>
+
+  <div class="grid">
+    <article class="project small" data-video>
+      <div class="media"><img src="portfolio-cover.png" alt=""><div class="shade"></div><span>SHORT FORM</span><button class="round">↗</button></div>
+      <div class="project-info"><div><span>02 / SHORT FORM</span><strong>Hooks · Pacing · Retention</strong></div></div>
+    </article>
+    <article class="project small" data-video>
+      <div class="media"><img src="portfolio-cover.png" alt=""><div class="shade"></div><span>DOCUMENTARY</span><button class="round">↗</button></div>
+      <div class="project-info"><div><span>03 / DOCUMENTARY</span><strong>Story · Rhythm · Atmosphere</strong></div></div>
+    </article>
+    <article class="project small" data-video>
+      <div class="media"><img src="portfolio-cover.png" alt=""><div class="shade"></div><span>MOTION GRAPHICS</span><button class="round">↗</button></div>
+      <div class="project-info"><div><span>04 / MOTION</span><strong>Type · Transitions · Visual Systems</strong></div></div>
+    </article>
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <div class="tiny">02 — ABOUT</div>
+  <div class="about-layout">
+    <div><h2>Editing with<br><em>intent.</em></h2><p>I'm Aman, a video editor focused on making content feel fast, clean and intentional. I combine pacing, motion graphics and visual storytelling to keep attention from the first frame.</p></div>
+    <div class="about-card"><span>FRAME / BY / FRAME</span><strong>STORY<br>FIRST.</strong></div>
+  </div>
+</section>
+
+<section class="services section">
+  <div class="tiny">03 — CAPABILITIES</div>
+  <div class="service-list">
+    <div><i>01</i><h3>Short Form</h3><p>Fast, social-first edits built around hooks and retention.</p></div>
+    <div><i>02</i><h3>Documentary</h3><p>Story-led editing with structure, rhythm and atmosphere.</p></div>
+    <div><i>03</i><h3>Motion Graphics</h3><p>Typography, transitions and visual systems that support the story.</p></div>
+    <div><i>04</i><h3>Commercial</h3><p>Polished edits with a clear visual identity.</p></div>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="tiny">04 — LET'S WORK</div>
+  <h2>Have footage?<br><em>Let's make it move.</em></h2>
+  <div class="links">
+    <a href="mailto:rajpurohitaman08@gmail.com">EMAIL ↗</a>
+    <a href="https://instagram.com/aman.krx" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+    <a href="https://wa.me/918160067161" target="_blank" rel="noopener">WHATSAPP ↗</a>
+  </div>
+</section>
+</main>
+
+<footer><span>AMAN RAJPUROHIT © 2026</span><span>BUILT FOR VISUALS.</span></footer>
+
+<div class="modal" id="modal">
+  <button id="close">CLOSE ×</button>
+  <div class="player">
+    <div>AMAN RAJPUROHIT / SHOWREEL</div>
+    <iframe id="video" title="Aman Rajpurohit portfolio showreel" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
